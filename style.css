@@ -4,3 +4,22 @@
     Assignment: HW4
     Last Modified: 10/2/2024 
 */
+
+.titleBar{
+	background-color: orange;
+	position: fixed;
+	height: 70px;
+	width: 100%;
+	top: 0;
+	left: 0;
+
+	h1{
+		text-align: center;
+		color: white;
+	}
+}
+
+.mainArea{
+	top: 70px;
+	width: 100%;
+}
