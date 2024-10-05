@@ -2,38 +2,59 @@
     Name: Sean Burke
     Class: CPSC 332 - Web Development
     Assignment: HW4
-    Last Modified: 10/2/2024 
+    Last Modified: 10/4/2024 
 */
 
-.titleBar{
-	background-color: orange;
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titleBar {
+    background-image: linear-gradient(to bottom right, orange, purple);
 	position: fixed;
 	height: 70px;
 	width: 100%;
 	top: 0;
 	left: 0;
 
-	h1{
+	h1 {
 		text-align: center;
-		color: purple;
+		color: black;
 	}
 }
 
-.mainArea{
+.mainArea {
 	top: 70px;
     height: 100%;
 	width: 100%;
     left: 0;
     position: fixed;
-    background-color: black;
+    background-color: rgb(33, 33, 33);
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.flex-item{
-    background-color: white;
-    width: 100px;
-    height: 100px;
-    margin: 10px;
+.flex-item {
+    background-image: linear-gradient(to bottom right, orange, purple);
+    width: 300px;
+    height: 300px;
+    margin: 30px;
+
+    h2 {
+        text-align: center;
+        color: black;
+    }
+
+    img {
+        display: block;
+        height: 80%;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.flex-item:hover {
+    border: 20px, solid, rgb(222, 222, 41);
 }
