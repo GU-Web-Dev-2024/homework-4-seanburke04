@@ -1,6 +1,6 @@
 starburst = https://www.candywarehouse.com/products/original-starburst-fruit-chews-candy-packs-36-piece-box
 twix = https://en.wikipedia.org/wiki/Twix
 m&ms = https://giftshop.sunnybrook.ca/products/m-ms-milk-chocolate-48g
-skittles = https://www.candywarehouse.com/products/skittles-candy-54-ounce-bag
+skittles = https://www.uclahealth.org/news/article/what-you-need-know-about-californias-skittles-ban
 reese's = https://www.candywarehouse.com/products/reeses-peanut-butter-cups-candy-packs-36-piece-box
 snickers = https://www.candywarehouse.com/products/snickers-candy-bars-48-piece-box
