@@ -5,6 +5,12 @@
     Last Modified: 10/4/2024 
 */
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -24,15 +30,14 @@ body {
 }
 
 .mainArea {
-	top: 70px;
-    height: 100%;
-	width: 100%;
-    left: 0;
-    position: fixed;
+    margin-top: 70px; 
+    width: 100vw; 
     background-color: rgb(33, 33, 33);
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: center; 
+    align-items: center; 
+    min-height: calc(100vh - 140px); 
 }
 
 .flex-item {
@@ -57,4 +62,14 @@ body {
 
 .flex-item:hover {
     border: 20px, solid, rgb(222, 222, 41);
+}
+
+footer {
+    background-color: darkgray;
+    position: fixed;
+    width: 100vw;
+    height: 70px;
+    bottom: 0;
+    left: 0;
+    text-align: center;
 }
