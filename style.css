@@ -61,11 +61,11 @@ body {
 }
 
 .flex-item:hover {
-    border: 20px, solid, rgb(222, 222, 41);
+    border: 10px, solid, darkorange;
 }
 
 footer {
-    background-color: darkgray;
+    background-color: darkorange;
     position: fixed;
     width: 100vw;
     height: 70px;
